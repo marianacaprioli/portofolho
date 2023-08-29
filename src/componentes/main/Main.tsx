@@ -1,11 +1,25 @@
 import './Main.css'
 function Main(){
-    return(
-        <main>
-           <h1> Albion Online (AO) é um jogo eletrônico do gênero MMORPG gratuito de fantasia medieval desenvolvido pelaSandbox Interactive, 
-            estúdio com sede em Berlim, na Alemanha, a versão beta do jogo começou a ser testada em 2015, a versão final do jogo foi lançada em 17 de julho de 2017, 
-            em 10 de abril de 2019 o jogo se tornou gratuito.</h1> 
-        </main>
-    )
+ return(
+  <main>
+    <h1>Seu Nome</h1>
+    <div class="portfolio">
+        <div class="project">
+            <h2>Projeto 1</h2>
+            <p>Descrição do primeiro projeto.</p>
+        </div>
+        
+        <div class="project">
+            <h2>Projeto 2</h2>
+            <p>Descrição do segundo projeto.</p>
+        </div>
+        
+        <div class="project">
+            <h2>Projeto 3</h2>
+            <p>Descrição do terceiro projeto.</p>
+        </div>
+    </div>
+  </main>
+ )
 }
 export default Main

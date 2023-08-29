@@ -8,7 +8,7 @@ export default function Footer() {
     <h2>Links Importantes</h2>
     <ul>
       <li><a href="#">Suporte</a></li>
-      <li><a href="#">Sobre Nós</a></li>
+      <li><a href="#">Sobre mim</a></li>
       <li><a href="#">Contato</a></li>
     </ul>
   </div>
