@@ -1,0 +1,47 @@
+
+
+footer {
+  background-color: #474747;
+  color: #818181;
+  padding: 35px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer-section {
+  flex: 1;
+  margin-right: 20px;
+  margin-left: 200px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  font-family: fantasy;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  letter-spacing: 1px;
+ 
+}
+
+a:hover {
+  text-decoration: underline;
+}
+p{
+  color: white;
+}
+.barbie-img2{
+ 
+  width:20vw;
+  height: auto;
+}
+li{
+  padding-bottom: 10px;
+}
+
+
+
+
