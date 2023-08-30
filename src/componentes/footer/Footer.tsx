@@ -1,8 +1,9 @@
 import './Footer.css'
+import testi  from "./phanthasmah.jpg"
 export default function Footer() {
   return (
     <footer>
-   <img src='./src/componentes/footer/phanthasmah.jpg' className='fantasma-img2'></img>
+   <img src={testi} className='fantasma-img2'></img>
 
   <div className="footer-section">
     <h2>Links Importantes</h2>

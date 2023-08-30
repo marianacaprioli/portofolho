@@ -1,8 +1,9 @@
 import './Header.css'
+import testo  from "./phanthasmah.jpg"
 function Header(){
     return(
         <header>
-          <img src='./src/componentes/header/phanthasmah.jpg' className='fantasma-img'></img>
+          <img src={testo} className='fantasma-img'></img>
           <h2>𝑴𝒂𝒓𝒊𝒂𝒏𝒂 𝑩𝒐𝒄𝒐𝒏</h2>
           <nav className='navbar'>
           <ul>
