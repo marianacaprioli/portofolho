@@ -1,18 +1,53 @@
 Header{
   background-color: #474747;
   display: flex;
-  justify-content: space-between;
-  padding: 30px;
+  padding: 5px 15vw;
   align-items: center;
+  justify-content: space-between;
 }
-Header h1{
-  font-size: 60px;
+Header h2{
+  font-size: 40px;
   display: flex;
   align-items: left;
+
 }
-.barbie-img{
+.navbar{
+  display:flex;
+  justify-content:end;
+  align-items: center;
+  justify-content: space-between;
+}
+ul{
+display:flex;
+flex-direction:row;
+}
+.botao {
+  
+  padding: 10px 20px;
+  margin: 5px;
+  color: white;
+  text-decoration: none;
+}
+li{
+list-style-type:none;
+margin:4px;
+padding:10px;
+background-color: transparent;
+transition: 0.5s;
+
+}
+li:hover {
+  background-color: #a1a1a1;
+  transform: opacity 1;
+}
+h1{
+font-family:fantasy;
+margin-right: 120vh;
+}
+
+.fantasma-img{
  
-  width:10vw;
+  width:7vw;
   height: auto;
 }
 

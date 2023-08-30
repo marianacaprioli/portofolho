@@ -2,23 +2,23 @@ import './Main.css'
 function Main(){
  return(
   <main>
-    <h1>Seu Nome</h1>
+    <h1>𝑺𝒐𝒃𝒓𝒆 𝒎𝒊𝒎</h1>
     <div className="portfolio">
         <div className="project">
-            <h2>Projeto 1</h2>
-            <p>Descrição do primeiro projeto.</p>
-        </div>
-        
-        <div className="project">
-            <h2>Projeto 2</h2>
-            <p>Descrição do segundo projeto.</p>
-        </div>
-        
-        <div className="project">
-            <h2>Projeto 3</h2>
-            <p>Descrição do terceiro projeto.</p>
+        <img src='./src/componentes/main/mariana.jpg' className='mariana-img'></img>
+            <p>Sou a Mariana Bocon Caprioli, uma aventureira de 17 anos que fez sua entrada triunfal no mundo em 19 de agosto de 2006, 
+                na pitoresca cidade de Eldorado, Mato Grosso do Sul. Meu coração bate mais forte por jogos empolgantes, animes fascinantes 
+                e filmes épicos, todos com aquela dose mágica de aventura, fantasia e até mesmo comédia. Minha paixão reside nas histórias que 
+                nos fazem escapar da realidade cotidiana.
+
+                Quando não estou explorando mundos fictícios, estou dominando o português e, com um sorriso de satisfação, manobrando com destreza
+                a língua inglesa. Quem diria que uma jornada cheia de curiosidades e aprendizado se desenrolaria desde o dia em que gritei
+                pela primeira vez até hoje?
+            </p>
         </div>
     </div>
+
+    <div className="fantasma"><img src='./src/componentes/main/fam.png' className='fam-img'></img></div>
   </main>
  )
 }
