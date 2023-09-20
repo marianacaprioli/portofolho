@@ -29,15 +29,7 @@ h1 {
 .portfolio{
   display: flex;
 }
-.fam-img{
-  width:500px;
-  justify-content: end;
-}
-.fantasma{
-  display: flex;
-  justify-content: flex-end;
-  width: -webkit-fill-available;
-}
+
 .mariana-img{
   width:400px;
   height: auto;

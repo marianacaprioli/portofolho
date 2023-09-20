@@ -1,6 +1,5 @@
 import './Main.css'
 import teste  from "./mariana.jpg"
-import testa  from "./fam.png"
 
 function Main(){
  return(
@@ -20,8 +19,6 @@ function Main(){
             </p>
         </div>
     </div>
-
-    <div className="fantasma"><img src={testa} className='fam-img'></img></div>
   </main>
  )
 }
