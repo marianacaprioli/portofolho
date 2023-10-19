@@ -40,15 +40,15 @@ export default function Main(){
             imagem:'/mobpsycho100.jpg'   
         }
     ]
-    function TrataTexto(e:React.ChangeEvent<HTMLInputElement>){
-       setTexto(e.target.value)
-    }
+    function mudaTexto(e:React.ChangeEvent<HTMLInputElement>){
+        console.log(e.target.value)
+        setTexto(e.target.value)}
+    
     return(
         <>
         <div className="campo_pesquisa">
             <p>Saiba mais sobre meus interesses</p>
-            <input type="text" className='botao_pesquisa' placeholder='Pesquise um Tópico' onChange={TrataTexto} />
-            {!texto && <p>Resultados Para:{texto} </p>}
+            <input type="text" className='botao_pesquisa' placeholder='Pesquise um Tópico' onChange={mudaTexto} />
         </div>
         
         <main className="content-main">
