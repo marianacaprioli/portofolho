@@ -1,4 +1,5 @@
 import './Header.css'
+import {Link} from "react-router-dom"
 import testo  from "./phanthasmah.jpg"
 function Header(){
     return(
@@ -8,13 +9,16 @@ function Header(){
           <nav className='navbar'>
           <ul>
             <li>
-              <a href="#" className='botao'>Home</a>
+              <Link to="/">Home</Link> 
             </li>
             <li>
-              <a href="#" className='botao'>Projetos</a>
+              <Link to="/projetos">Interesses</Link> 
             </li>
             <li>
-              <a href="#" className='botao'>Sobre</a>
+              <Link to="/sobre">Sobre</Link> 
+            </li>
+            <li>
+              <Link to="/contato">Contato</Link> 
             </li>
 
           </ul>
